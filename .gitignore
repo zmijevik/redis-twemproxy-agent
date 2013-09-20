@@ -3,3 +3,4 @@
 /spec/support/status.txt
 /spec/support/*.rdb
 /spec/logs
+npm-debug.log

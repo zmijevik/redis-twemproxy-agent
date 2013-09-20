@@ -25,14 +25,11 @@ This originally started as a [gist](https://gist.github.com/eveiga/5039007) post
 It was then created in GitHub at https://github.com/matschaffer/redis_twemproxy_agent
 
 This fork contains the following changes:
-
+```
 	-	Full yaml parsing of the config file rather than string replacements
-
 	-	Full logging to a specific log file in cli.js
-
 	-	Automatic complete master update upon connection to Redis-Sentinel
-	
 	-	An example init.d script, using forever, to run on boot.  Albeit it currently runs as root, haven't got round to securing this yet.
-
+```
 ### Disclaimer
 This is my first ever nodejs app ;)
