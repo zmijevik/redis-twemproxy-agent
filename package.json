@@ -1,7 +1,7 @@
 {
   "name": "redis_twemproxy_agent",
-  "version": "0.0.3",
-  "description": "Redis agent for nutcracker update",
+  "version": "1.0.0",
+  "description": "Redis agent for TwemProxy update",
   "preferGlobal": true,
   "bin": "bin/redis_twemproxy_agent",
   "main": "lib/agent.js",
@@ -10,15 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matschaffer/redis_twemproxy_agent.git"
+    "url": "https://github.com/Stono/redis_twemproxy_agent"
   },
   "keywords": [
     "redis",
     "twemproxy",
     "ha"
   ],
-  "author": "Edgar Veiga <edgarmveiga@gmail.com>",
+  "author": "Karl Stoney <karl@jambr.co.uk>",
   "contributors": [
+    "Edgar Veiga <edgarmveiga@gmail.com>",
     "Mat Schaffer <mat@schaffer.me>"
   ],
   "license": "BSD",
@@ -26,7 +27,8 @@
     "underscore": "~1.4.4",
     "async": "~0.2.5",
     "cli": "~0.4.4-2",
-    "redis": "~0.8.2"
+    "redis": "~0.8.2", 
+    "js-yaml": "~2.1.0"
   },
   "devDependencies": {
     "jshint": "~1.0.0",
