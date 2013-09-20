@@ -16,6 +16,8 @@ Slave1 	SlaveN		Slave 1	Slave N
 			Redis Sentinel
 ```
 
+A more detailed explanation can be found on [an article on my site](http://www.jambr.co.uk/Article/redis-twemproxy-agent). 
+
 ### Caveats
 Your master names in Redis-Sentinel (sentinel.conf) should match the names of the master nodes in your twemproxy config.
 I have included examples of sentinel and twemproxy configs in the conf directory
