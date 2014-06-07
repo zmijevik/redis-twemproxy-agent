@@ -33,5 +33,3 @@ This fork contains the following changes:
 	-	Automatic complete master update upon connection to Redis-Sentinel
 	-	An example init.d script, using forever, to run on boot.  Albeit it currently runs as root, haven't got round to securing this yet.
 ```
-### Disclaimer
-This is my first ever nodejs app ;)
